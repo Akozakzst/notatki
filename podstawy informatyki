@@ -1,0 +1,573 @@
+Temat: System ósemkowy
+Liczba w systemie binarnym 	Liczba w systemie ósemkowym
+000	0
+001	1
+010	2
+011	3
+100	4
+101	5
+110	6
+111	7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(1010101000111)2 -> (12507)8
+(1101010110011)2 -> (36251)8
+ 
+Przelicz na system dwójkowy z systemu ósemkowego.
+a)
+(372)
+(011111010)
+b)
+(465)
+(100110101)
+
+c)
+(777)
+(111111111)
+d)
+(645)
+(110100101)
+Przelicz na system dziesiętny z systemu ósemkowego.
+a)
+(257)=7 + 40 + 128 = 175
+b)
+(341
+c)
+(653
+(572
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Temat: System szesnastkowy
+Liczba w systemie binarnym	Liczba w systemie szesnastkowym
+0000	o
+0001	1
+0010	2
+0011	3
+0100	4
+0101	5
+0110	6
+0111	7
+1000	8
+1001	9
+1010	A(10)
+1011	B(11)
+1100	C(12)
+1101	D(13)
+1110	E(14)
+1111	F(15)
+
+Konwersja liczby 2 na 16
+a) (1010101000111)2=(1547)16
+b) (1110111001001)2=(1DC9)16
+
+Konwersja liczby 10 na 16
+a) (466)10=(1D2)
+466 : 16 = 29     2
+29 : 16 = 1          13(D)
+1 : 16 = 0              1
+
+Konwersja liczby 16 na 10
+a) (2F5)16= 5*160+15*161+2*162= 5 + 240+512=(757)10
+b) (42C)16=12*160+2*161+4*162=12+32+1024=(1068)10
+
+Konwersja liczby 16 na 2
+a) (2C5)16=(001011000101)2
+b) (B5F)16=(101101011111)2
+
+Konwersja liczby 16 na 8
+a) (3D1)16=(001111010001)2=(1721)8
+b) (BABA)16= (1011101010111010)2=(135272)
+
+Konwersja liczby 8 na 16
+a) (357)8=(011101111)2=(EF)16
+b) (777)8=(111111111)2=(1EF)16
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Temat: Przeliczanie systemów liczbowych.
+
+
+\
+  \ 1
+ 2  \	(     )10	(     )2	(     )8	(     )16
+(     )10	
+-----------------	Potęgowanie albo kreska	Potęgowanie albo kreska	Potęgowanie albo kreska
+(     )2	Potęgowanie albo kreska	
+----------------	Zamienianie bitów/ grupowanie	Zamienianie bitów/grupowanie
+(     )8	Potęgowanie albo kreska	Zamienianie bitów/ grupowanie	
+-----------------	16->2->8/
+8->2->16
+(     )16	Potęgowanie albo kreska	Zamienianie bitów/ grupowanie	8->2->16/
+16->2->8	
+-----------------
+
+	Przelicz na system binarny z systemu dziesiętnego:
+	(1256)
+	(1567)
+	(790)
+	Przelicz na system dziesiętny z systemu binarnego:
+	(110010001)
+	(101100110)
+	(101011111)
+	Przelicz na system ósemkowy z systemu binarnego:
+	(101011111)
+	(101000110)
+	(1100010101)
+	Przelicz na system ósemkowy z systemu dziesiętnego:
+	(927)
+	(876)
+	(1156)
+
+5.Szesnastkowy z dwójkowego
+a) (111111100011)
+b) (100010100100)
+6.Szesnastkowy z dziesiętnego
+a) (887)
+b) (693)
+ 7.Dziesiętny z szesnastkowego
+a) (1C5)
+b) (456)
+       8.Dwójkowy z szesnastkowego
+       a) (B59)
+       b) (522)
+       9.Liczbę EF6 zapisaną w systemie szesnastkowym zamień na liczbę w systemie             
+       BIN, OCT, DEC
+      10.Liczbę 500 zapisaną w systemie ósemkowym zamień na liczbę w systemie BIN, DEC,   
+      HEX
+1.a)                                                                                      
+1256  0        (1256)10  = (10011101000)2 
+628    0
+       314   0
+       157   1
+       78     0
+       39     1
+       19     1
+       9       1
+       4       0
+       2       0
+       1       1
+
+
+
+
+
+1.b)
+1567  1
+783  1
+391  1
+195  1
+97  1
+48  0
+24  0
+14  0
+7  1
+3  1
+1  
+
+5.a)
+(FE3)
+5.b)
+(8A4)
+6.a)
+887  7
+55    7
+3      3
+6.b)
+693  5
+43    
+
+Temat: Dodawanie liczb w systemie binarnym.
+10101110
+  1011011
+-----------------
+100001001
+
+0+0=0
+0+1=1
+1+0=1
+1+1=0i1p.
+p-pożyczka, czyli 1
+
+Działanie 	
+Wynik
+
+0-0	
+0
+
+0-1
+	
+1 i pożyczka od następnej pozycji
+
+1-0	
+1
+
+1-1	
+0
+
+p-0-c	
+1 i pożyczka 
+
+p-0-1	
+0 o p.
+
+
+p-1-0	
+0
+
+p-1-1	
+1 i p.
+
+
+Temat: Zapis liczby binarnej ze znakiem.
+Do zapisania liczby dwójkowej ze znakiem jest potrzebny co najmniej 1 dodatkowy bit – bit znaku. Zapis taki powinno się przedstawiać na wielokrotnościach bajtu (8, 16, 32 bita). Bit znaku należy od wartości liczby oddzielić kropką. 
+Metody zapisu:
+1.Znak moduł – 2M  Obok najstarszego bitu liczby (pierwszy od lewej) dodaje się bit znaku. Wynosi on 0 dla liczby dodatniej i 1 dla liczby ujemnej. Pozostałe bity reprezentują wartość bezwzględną (moduł liczby)
+2. Znak uzupełnienie do -1, -ZU (U1) -  Występuje bit znaku, gdy liczba jest ujemna, moduł zostaje uzupełniony do jedynki. Następuje odwrócenie wszystkich bitów liczby (zamiana zer na jedynki i jedynek na zero)
+U1: (+12)10 = (0.0001100)2
+U1: (-12)10  = (1.1110011)2
+3. Znak uzupełnienie do 2 ZU(U2) Występuje bit znaku. Gdy liczba jest ujemna, moduł zostaje uzupełniony do 2. Następuje uzupełnienie do 1, odwrócenie wszystkich bitów liczby i dodanie 1.
+U2: (+12)10 = (0.0001100)2
+                                     01
+U2: (-12)10 = (1.1110011)2
+                                           1
+                        (1.1110100)2
+
+Liczba w systemie dziesiętnym	Liczba w systemie ZM	Liczba w systemie ZU1	Liczba w systemie ZU2
++34	(0.0100010)	(0.0100010)	(0.0100010)
++45	(0.0101101)	(0.0101101)	(0.0101101)
+ +73	(0.1001001)	(0.1001001)	(0.1001001)
++85	(0.1010101)	(0.1010101)	(0.1010101)
+-34	(1.0100010)	(1.1011101)	(1.1011110)
+-45	(1.0101101)	(1.1010010)	(1.1010011)
+-73	(1.1001001)	(1.0110110)	(1.0110111)
+-85	(1.1010101)	(1.0101010)	(1.0101011)
+
+
+
+Temat: Konwersja liczby dziesiętnej na binarną liczbę z przecinkiem.
+
+Liczbę dzielimy na część całkowitą i część ułamkową. Część całkowitą przeliczamy na system dwójkowy. Kolejne bity części ułamkowej otrzymujemy poprzez mnożenie ich przez 2 – otrzymana część całkowita iloczynu jest kolejną cyfrą dwójkową. Do następnych obliczeń bierzemy część ułamkową wyniku. Mnożenie kontynuujemy, aż otrzymany wynik 0 lub wyznaczoną dokładność ułamkowych cyfr dwójkowych.
+     
+                 
+Dzielimy do póki nie będzie 0 i wynik bez zera z * to liczba po przecinku.
+
+
+
+Temat: elementy elektroniczne stosowane w urządzeniach techniki komputerowej.
+
+Elementy elektroniczne są wykonane z różnych materiałów i według różnej technologii, stąd mają różne właściwości i zastosowania. W układach elektronicznych występują:
+1.Elementy bierne:
+-rezystory
+-kondensatory
+-cewki
+-transformatory
+2.Elementy czynne:
+-diody 
+-tranzystory
+-układy scalone
+1. Rezystor - potocznie zwany opornik jest elementem biernym (pasywnym) obwodu elektrycznego. Wyróżnia się rezystory liniowe (prąd płynący przez taki rezystor jest w prost proporcjonalny do występującego na nim do występującego na nim spadku napięcia) i nieliniowe. Rezystory służą do ograniczania prądu  płynącego w określonych gałęziach obwodu oraz do ustalania odpowiednich spadków napięcia. Prąd przepływający przez rezystor powoduje wydzielanie się ciepła. Rezystory mają różne wymiary i kształty, są wytwarzane z różnych materiałów. Parametrem rezystora jest Rezystancja, oznaczana jako R, którą wyraża się w omach. Schemat rezystora
+ 
+
+
+
+
+
+
+
+Kondensator – Jest to element pojemnościowy obwodu elektrycznego. Jest zbudowany z 2 przewodników (okładzin), rozdzielone warstwą dielektryka. Doprowadzenie napięcia do okładzin kondensatora powoduje gromadzenie się na nich ładunku elektrycznego. Symbol kondensatora: 
+ 
+Parametrem kondensatora jest pojemność oznaczana literą C, którą wyraża się w Faradach.
+
+Cewka – Jest to element indukcyjny obwodu elektrycznego. Składa się z pewnej liczby zwojów drutu przewodzącego. Zwoje są nawinięte na powierzchni walca (cewka cylindryczna) lub na powierzchni pierścienia (cewka toroidalna). Ze względu na sposób nawinięcia zwojów można także podzielić na jednowarstwowe i wielowarstwowe. Wewnątrz zwojów może się znajdować dodatkowo rdzeń z materiału ferromagnetycznego. Symbol cewki:
+ 
+Parametrem cewki jest indukcyjność, oznaczana literą L, którą wyraża się w Henrach (H). 
+Transformator – składa się z dwóch sprzężonych magnetycznie cewek, nawiniętych na wspólny rdzeń. Jedna tworzy uzwojenie pierwotne, a druga – uzwojenie wtórne. Transformatory są używane przede wszystkim do zamiany (zmniejszania lub zwiększania napięcia w obwodach prądu zmiennego). Podstawowym parametrem transformatora jest przekładnia – liczba określająca stosunek napięcia na uzwojeniu wtórnym do napięcia na uzwojeniu pierwotnym 
+  
+
+Dioda – jest to dwuzaciskowy element elektroniczny zbudowany ze złącza półprzewodnikowego p-n lub złącza metal-półprzewodnik. Zależność prądu płynącego przez diodę od przyłożonego do jej zacisków napięcia jest nieliniowa. Poza tym jest ona niesymetryczna, tzn. dioda w jedną stronę przewodzi prąd, a w drugą właściwie go nie przewodzi. Diody stosuje się gównie do prostowania prądu przemiennego                        (dioda ratownicza), jednak mają one także wiele innych zastosowań. Na przykład: diody Swiecące (LED), emiutujące promieniowanie  w zakresie światła widzialnego i podczerwieni, są używane w sprzęcie elektronicznym m.in. jako wskaźniki świetlne lub wyświetlacze numeryczne oraz nadajniki promirniowania podczerwonego. Fotodiody, reagujące na promieniowaniue świetlne, wykorzystuje się m.in. w dekoderach światła widzialnego i podczerwonego, miernikach odległości, komunikacji światłowodowej. Na schemacie diodę oznacza się literą D. Zastosowanie diody:
+Dioda prostownicza
+Dioda świecąca 
+Fotodioda 
+
+Tranzystor – jest to trójzaciskowy, półprzewodnikowy element elektroniczny, służący do wzmacniania sygnałów elektrycznych.
+	Tranzystor bipolarny – ma trzy wyprowadzenia : 
+B – Bazę
+E – Emiter
+C – Kolektor
+Jest zbudowany z trzech warstw półprzewodnika o przeciwnym typie przewodnictwa (struktury p-n-p lub n-p-n). Od sposobu przewodnictwa tych złączy zależy stan pracy tranzystora. Tranzystor może pracować w stanach: 
+- Przewodzenia (jako wzmacniacz sygnału)
+- Stan zaporowy (jako łącznik)
+- Stan nasycenia (również jako łącznik)
+- Stan odwrócenia (jako dławik sygnału)
+Tranzystor polowy (bipolarny) – Tranzystor polowy ma 3 wyprowadzenia:
+G – bramkę
+D – dren
+S – źródło
+W półprzewodniku między 2 elektrodami (źródłem i drenem) powstaje tak zwany kanał. Przez kanał płynie prąd, którego wielkość jest regulowana napięciem przyłożonym do 3 elektrody – bramki. Zastosowane w komputerze procesory, chipsety oraz inne elementy są zbudowane z milionów tranzystorów
+Układ scalony – to zminiaturyzowany układ elektroniczny, zawierający od setek do milionów podstawowych elementów elektronicznych, głównie tranzystorów i diod. 
+Zastosowanie układów scalonych:
+-Przełączanie sygnałów
+-Wzmacnianie sygnałów 
+-Generowanie sygnału
+-Prostowanie sygnału
+Układy cyfrowe oparte na układach scalonych stanowią podstawę techniki komputerowej
+Rezonator kwarcowy – jest to element elektroniczny wykonany z kryształów kwarcu. Rezonator służy do stabilizacji drgań generatorów elektronicznych. Na schematach rezonator oznacza się symbolem X
+ 
+Parametrem jest częstotliwość pracy – waha się od kilkudziesięciu kiloherców do kilkuset megaherców (MHz).
+
+
+
+
+
+
+
+
+Temat: Układy cyfrowe.
+Układy cyfrowe są rodzajem układów elektronicznych, których sygnały napięciowe przyjmują tylko określoną liczbę stanów z przypisanymi im wartościami liczbowymi. Informacja wewnątrz urządzeń cyfrowych jest zakodowana za pomocą uporządkowanego ciągu cyfr. Zwykle liczba stanów wszelkich sygnałów wynosi 2 i przyjmują one wartości umowne 0 i 1. Operacje realizowane przez układy cyfrowe można opisać zgodnie z algebrą boole a, czyli językiem logiki matematycznej. Dlatego układy cyfrowe nazywa się także układami logicznymi 
+Sygnały elektryczne istnieją w systemach cyfrowych w jednej z dwóch wartości:
+-Poziom niski (L)
+-Poziom wysoki (H)
+W praktyce określa się 2 pola tolerancji, wewnątrz których powinien się znajdować poziom sygnału reprezentującego logiczne 0 i 1. 1 logiczna zawiera się więc w obrębie napięcia 3-5 wolt, a 0 logiczne w obrębie napięcia 0-1 wolt.
+Cechy układów cyfrowych:
+-Mają wejście wejścia i wyjścia – gdzie mogą przyjąć sygnał 0 lub 1.
+-Realizują określoną funkcję – sygnał na wyjściu zależy od sygnału na wejściu oraz stanu wewnętrznego układu
+
+Zalety układów cyfrowych:
+-Bezstratne kodowanie i przesyłanie informacji
+-Uproszczone zapisywanie i przechowywanie informacji cyfrowej
+-Mała wrażliwość na zakłócenia elektryczne 
+-Możliwość tworzenia układów programowalnych, których działanie określa program komputerowy
+
+Wady układów cyfrowych:
+-Skomplikowanie zarówno na poziomie elektrycznym, jak i logicznym
+-Możliwe przekłamanie stanów logicznych
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ze względu na sposób przetwarzania informacji rozróżnia się 2 typy układów cyfrowych:
+-Układy kombinacyjne – w układach kombinacyjnych sygnały wyjściowe zmieniają się z mierzalnym małym opóźnieniem w stosunku do zmian układów wejściowych (każdy stan wejść określa jednoznacznie stan wyjść)
+-Układy sekwencyjne – stan wyjść zależy od poprzednich stanów wejść zapamiętanych w układzie. Układy sekwencyjne nazywa się też układami kombinacyjnymi z pamięcią.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Temat: Bramki logiczne.
+Bramka logiczna to element realizujący pewną funkcję logiczną. Argumenty funkcji i sama funkcja mogą przyjmować jedną z dwóch wartości: 0 lub 1.
+Rodzaje bramek logicznych:
+-NOT – negacja (nie)
+-AND iloczyn logiczny (koniunkcja) – I
+-NAND (not-and) – negacja iloczynu logicznego (nie i)
+-OR – suma logiczna (alternatywa) – LUB
+-NOR – negacja sumy logicznej (nie lub)
+- EX-OR (exclusive or) – różnica symetryczna (ALBO)
+-EX-NOR (exclusive not or) – negacja różnicy symetrycznej (nie albo)
+2 ostatnie bramki są dodatkowe (nie podstawowe – obowiązkowe)
+
+-NOT                       rysować bez kółka
+Symbol
+ 
+A	Q
+1	0
+0	1
+
+
+
+
+
+
+
+
+
+-AND              rysować bez kółka
+ 
+A	B	Y
+ 0	0	0
+0	1	0
+1	0	0
+1	1	1
+*  
+-OR
+ 
+A	B	Y
+0	0	0
+0	1	0
+1	0	1
+1	1	1
++
+
+
+
+
+-NOR
+ 
+X	Y	Z
+0	0	1
+0	1	0
+1	0	0
+
+1	1	0
+
+-NAND
+ 
+X	Y	Z
+0	0	1
+0	1	1
+1	0	1
+1	1	0
+
+
+
+
+-XOR  wynikiem jest 1 gdy sygnały n wejściu są różne
+ 
+X	Y	Z
+0	0	0
+0	1	1
+1	0	1
+1	1	0
+
+-XNOR  na wyjściu otrzymamy 1 wtedy gdy sygnały wejściowe są takie same
+ 
+X	Y	Z
+0	0	1
+1	0	0
+0	1	0
+1	1	1
+
+
+Temat: Algebra boole a.
+Funkcja logiczna (tzw. Booleowska) to matematyczny model opisu cyfrowego układu kombinacyjnego. Jest wyrażeniem złożonym ze zmiennych dwójkowych oraz określonych operacji logicznych. Zmienne dwójkowe mogą przyjmować dwie różne wartości (0 lub 1)  i są oznaczane literami A, B, C, x, y, z itd. Istnieją 3 podstawowe operacje logiczne:
+-NIE (NOT)
+-I (AND)
+-LUB (OR)
+Operacje te zapisuje się  za pomocą znaków znanych z arytmetyki:
+-negacja:  
+-iloczyn logiczny: A*B (lub AB)
+-suma logiczna: A+B
+
+Prawa algebry boole a:
+	Prawo przemienności 
+A + B = B + A
+AB = BA
+A+A ̅ = A ̅+A
+	Prawo łączności 
+(A+B)+C = A + (B+C)
+(AB)C = A (BC)
+	Prawo rozdzielności
+A ( B + ) = AB + AC
+A + (BC) = (A + B) ( A + C)
+	Twierdzenie 4:
+A + A = A
+B ̅+B ̅= B ̅
+AA = A
+	Twierdzenie 5:
+AB + AB ̅ = A
+(A+B)(A+B ̅) = A
+	Twierdzenie 6:
+A + AB = A
+A ( A + B ) = A
+	Twierdzenie 7:
+0 + A = A
+0A = 0
+
+	Twierdzenie 8:
+1 + A = 1
+1A = A
+	Twierdzenie 9:
+A ̅ + A = 1
+A ̅A=0
+	Twierdzenie 10
+A + A ̅B = A + B
+A(A ̅+B) = AB
+	Twierdzenie 11 (Prawo De Morgana)
+((A+B)) ̅ = A ̅B ̅
+((A B)) ̅ = A ̅ + B ̅
+
+Przykład 1
+Y = AB ̅ + (AB) ̅ + A ̅B ̅=AB ̅+ A ̅+ B ̅+ A ̅B ̅ = B ̅(A + A) + A(1 + B ̅) = B ̅(1)+ A ̅(1)
+
+Przykład 2
+Y  =A ̅B ̅+A+B= A + A ̅B ̅+  B
+A + (BC) = (A + B)(A + C)
+=(A+A ̅)(A+B ̅) + B = 1(A + B ̅) + B = A + (B ̅+B) = A + 1 = 1
+
+A + A ̅B = A + A ̅B ̅
+Y = A ̅B ̅+A+B=A+ A ̅B ̅ + B = A+B ̅+B = 1 + A = 1
+
+
+
+
+
+
+
+
+
+
+
+
+
