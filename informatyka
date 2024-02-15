@@ -1,0 +1,287 @@
+Temat: Bądź uczciwy ,czyli przestrzeganie prawa w świecie informatyki
+
+Kradzież:
+-Kopiowanie cudzych dokumentów
+-Używanie gier pobranych bez zapłaty
+-Publikowanie cudzych zdjęć i filmów bez zgody właściciela
+-Pobieranie z pirackich serwisów
+-Używanie komercyjnych programów korp. Bez odpowiedniej licencji
+
+Plagiat- Kopiowanie czyjejś pracy i podpisywanie swoim nazwiskiem
+
+Prawo autorskie- Zespół uprawnień, które przysługują twórcy utworu. Należą do nich między innymi prawo do uznania autorstwa utworu, decydowaniu o pierwszym udostępnieniu utworu publiczności, a także prawo do korzystania z utworu i czerpania korzyści majątkowych.
+
+Utwory na mocy licencji cc: np. zdjęcia, muzyka, Modele 3d, prace badawcze
+
+
+
+
+
+
+
+
+
+
+Temat: 8, 16, 32, 64, czyli jak rozwój technologii wpływa na rozwój społeczeństwa
+27+26+25+24+23+22+21 +20= 28-1
+Lmax=2n+1-1
+1/128    1/64    1/32    1/16    1/8    ¼    ½     1/1
+1 x 128 + 1 x 64 + 1 x 32 + 1 x 16 + 1 x 8 + 1 x 4 + 1 x 2 + 1 x 1 = (256)10
+(11111111)2+(1)10=(100000000)2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Temat: Kolejne informacje, czyli techniki uwierzytelniania kryptografia i podpis elektroniczny 
+Cechy postępu technologicznego w dziedzinie informatyki:
+-Częstotliwość pracy ( zmiana taktowania procesorów wpłynęła na wydajność komputerów i szybkość pracy procesorów)
+-Pobór energii i zasilanie (Zmiana technologii wytwarzania układów scalonych znacznie zmniejszyła zapotrzebowanie na energię)
+-Stopień scalenia (Dzięki miniaturyzacji i pozostałym cechom można budować coraz to wydajniejsze telefony komórkowe)
+-Architektura układu ( Dzięki temu można budować układy, które przy tej samej częstotliwości taktowania co ich poprzednicy pracują znacznie wydatniej)
+-Pojemność pamięci RAM (Zwiększenie pamięci RAM powoduje płynniejszą pracę aplikacji i możliwość instalowania nowych wersji programów)
+
+Zastosowania IT mające wpływ na zmiany cywilizacyjne:
+-Telefony (dawniej stacjonarny, a dziś mobilny globalnie) 
+-Natychmiastowa wymiana dokumentów bez względu na miejsce nadania i odbioru
+-Bankowość i płatność online, w tym także za pomocą telefonu
+-Komunikatory wykorzystujące transmisje strumieniowe dźwięku i obrazu (Komunikacja bezpośrednia bez ograniczeń)  
+-Wymiana nieograniczonej ilości danych
+-e-urzędy (np. składanie i otrzymywanie dokumentów)
+-e-learning(nauka na odległość za pomocą środków elektronicznych)
+
+
+
+
+Temat: Proces uwierzytelniania danych.
+
+1.Identyfikacja
+ (podczas identyfikacji jest sprawdzana tożsamość) np:
+ -Aby zalogować się do konta w mediach społecznościowych, podajemy login, który następnie jest weryfikowany w bazie danych, by potwierdzić czy użytkownik o takiej nazwie wogule istnieje. 
+-Logując się na infolinię banku zostaniemy poproszeni o podanie naszego  imienia i nazwiska.
+
+2.Uwierzytelnianie
+Jest to moment, kiedy strona ufająca za pomocą dostępnych sobie narzędzi i metod weryfikuje, czy dany użytkownik jest tym za którego się podaje np:
+-Serwer, na którym mamy swoją skrzynkę pocztową, prosi nas o wpisanie hasła i weryfikuje jego poprawność.
+-Obsługa banku zadaje kolejne pytania, które pomogą w weryfikacji naszej tożsamości (np. Data urodzenia, nazwisko panieńskie matki)
+
+3.Autoryzacja
+W tym kroku otrzymamy prawo lub odmowę dostępu do danych
+Techniki uwierzytelniania:
+-W przypadku dokumentów prawnych np. pieczątka, podpis, znak wodny
+-W przypadku osób żywych techniką uwierzytelniania jest zabezpieczenie biometryczne (Odcisk palca, geometria dłoni, geometria twarzy, siatkówka oka). Karta elektroniczna, bio-chip, token
+-W przypadku dokumentów i wiadomości elektronicznych technikami uwierzytelniania jest podpis cyfrowy i elektroniczny
+-W przypadku komunikacji elektronicznej stosuje się techniki oparte na kryptografii symetrycznej, asymetryczne i haśle jednorazowym
+
+Ważne pojęcia:
+Kodowanie-W kodowaniu używamy słów kodowych o zbliżonym znaczeniu (np. Agata zaczęła rodzić, może informować o podłożonym ładunku wybuchowym i uruchomieniu czasowego detonatora)
+Kodowanie odbywa się na poziomie pojedynczych znaków np. szyfr cezara
+Podpis elektroniczny jest operacją podpisywania konkretnych danych (dokumentu elektronicznego) przez osobę fizyczną
+Podpis cyfrowy- Jest to zbiór danych dołączony do innych danych który pozwala odbiorcy danych udowodnić pochodzenie danych i zabezpieczyć je przed pałuszerstwem
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Temat: Kim jestem, czyli jak bezpiecznie budować wizerunek w sieci.  
+
+RODO-Jest to Rozporządzenie o Ochronie Danych Osobowych 
+
+Przykłady danych osobowych:
+-Imię i nazwisko
+-Pesel
+-Numer telefonu
+-Adres poczty elektronicznej
+-Adres sieciowy IP
+-Adres karty sieciowej mac
+
+Rodzaje przetwarzania danych:
+-Przeglądanie 
+-Modyfikacja  
+-Łączenie
+-Usuwanie
+-Niszczenie
+
+Prawa osób fizycznych wobec RODO:
+-Prawo do wglądu do danych
+-Prawo do modyfikacji danych
+-Prawo do przenoszenia danych
+-Prawo do bycia zapomnianym 
+
+Obowiązki pracodawcy wobec RODO:
+-Powołanie inspektora ochrony danych osobowych 
+-Obowiązek poinformowania o wycieku danych w ciągu 72 godzin
+-Monitorowanie, modyfikowanie i przetwarzanie danych osobowych  
+Temat: Przypomnij sobie, czyli podstawy tworzenia algorytmów.
+Algorytm – jest to skończony i uporządkowany opis precyzyjnie sformułowanych czynności prowadzący do przetworzenia danych wejściowych na dane wyjściowe
+Sposoby reprezentacji algorytmów:
+-Zapis słowny np. książka kucharska (zdanie po zdaniu)
+-Lista kroków
+-Schemat blokowy
+-Pseudokod – Jest to sposób reprezentacji algorytm jak najbardziej zbliżony do języka programowania 
+-Drzewo decyzyjne 
+
+Cechy dobrego algorytmu:
+-Precyzyjne zdefiniowanie – algorytm nie może pozostawiać dowolności w interpretacji zapisu. Każdy, kto z niego korzysta, musi go rozumieć w taki sam sposób
+Skończoność – algorytm musi po pewnej liczbie kroków dać wynik, czyli wygenerować dane wyjściowe. Liczba operacji musi być skończona.
+Wykonywalność – wszystkie operacje opisane w algorytmie muszą być możliwe do wykonania
+Efektywność – Algorytm powinien być tak ułożony, by wynik jego działania był dostępny po jak najmniejszym zaangażowaniu zasobów komputera i w jak najkrótszym czasie. Zależy to jednak nie tylko od algorytmu, lecz także od właściwości komputera, języka użytego d ułożenia programu, systemu operacyjnego i wielu innych parametrów.
+
+
+
+
+
+
+
+
+
+
+Temat: Narzędzia, czyli jak dobrać i skonfigurować środowisko programistyczne.
+
+IDE – (Integral Development Environment), zintegrowane środowisko programistyczne jest to program lub zespół programów służących do tworzenia, testowania, modyfikowania i konserwacji programów komputerowych w danym języku. 
+MinGW (Minimalistic GNU for Windows) – narzędzie służące do kompilacji
+Kompilacja – jest to zamiana kodu źródłowego (kodu pisanego) na język wynikowy (język maszynowy  
+# - Dyrektywa preprocesora – Jest to wykonanie operacji przed analizą kodu źródłowego
+Include <iostream> - dołączenie biblioteki (zestawu instrukcji) strumienia wejścia i wyjścia 
+Using namespace std – stosowanie standardowych przestrzeni  nazw (nie musimy zapisywać std::  w każdej linii kodu
+Int mane () – jest t główna funkcja programu
+Return 0 – jest to informacja dla kompilatora o poprawnym zakończeniu programu 
+Deklaracja zmiennej w programowaniu – typ nazwa = wartość 
+Zmienna jest to informacja zapisana w komórce pamięci RAM   
+Tworzenie komentarzy w c++:
+-Komentarz jednoliniowy - //
+-Komentarz wieloliniowy - /*……….*/
+Operatory arytmetyczne w języku c++ :
+Dodawanie  +               y = x + 4
+Odejmowanie   -           y = x – 4 
+Mnożenie   *                 y = x*z
+Dzielenie  /                       y = (x + 25  ) /z
+Reszta z dzielenia (modulo)  %                 y = z % 2
+
+Int oznacza liczbę całkowitą i odrzuca liczby po przecinku
+
+
+
+
+Modulo jak policzyć:
+16%5=1
+3*5=15
+16-15=1
+Patrzymy ile razy liczba po % zmieści się w liczbie przed % 
+
+Operatory relacyjne w c++ :
+Mniejszy <
+Większy >
+Równy ==
+Różny !=
+Mniejszy lub równy <=
+Większy lub równy >=
+
+Pętla while
+Int a=5;
+While (a<10)
+{
+Cout  << a << endl;
+a++;
+}
+Pętla wyświatli na ekranie liczby od 5 do 9
+
+Pętla do while
+Int a=10;
+do
+{
+Cout << a << endl;
+a+=10;
+}
+While(a<=50);
+
+Program wyświetli liczby 10 , 20, 30, 40, 50
+Pętla do while wykona się przynajmniej raz w odróżnieniu do pętli while, która może wykonać się 0 razy	
+Tablica jest rodzajem zmiennej w programowani, która posiada wiele innych zmiennych tego samego typu
+
+Przykład deklarowania tablicy jedno wymiarowej 
+Int pomiar[10]
+
+Program utworzy tablicę o nazwie pomiar, która posiada 10 elementów (liczb całkowitych)
+Tworzenie tablicy o wielkości podanej przez użytkownika 
+
+Int n;
+Cin >> n;
+Int pomiar [10]
+
+Odwoływanie się do poszczególnych komórek tablicy nazywamy indeksowanie 
+Dla tablicy 10 elementowej odwołujemy się do komórek przez pomiar[0] do pomiar[9] (n-1) 
+
+Do poruszania się po komórkach tablicy wykorzystujemy pętlę
+Int pomiar[10]
+For(int i=0;i<10;1++)
+{
+Cin >> pomiar[i];
+}
+
+
+Deklarowanie tablicy dwu-wymiarowej 
+Int tab [4] [3] ;
+[0][0]	[0][1]	[0][2]
+[1][0]	[1][1]	[1][2]
+[2][0]	[2][1]	[2][2]
+[3][0]	[3][1]	[3][2]
+
+Funkcja – jest to podprogram, którym możemy wywołać w dowolnej części programu głównego.                 
+
+Temat: Wspólna miara, czyli podstawy złożoności obliczeniowej.
+Złożoność obliczeniową algorytmu dzielimy na złożoność pamięciową i czasową. 
+Przez złożoność czasową będziemy rozumieli ilość czasu  potrzebnego do rozwiązania problemu  w zależności od tego, ile mamy danych wejściowych. Złożoność czasowa potrafi oszacować czas rozwiązania algorytmu.
+Złożoność pamięciowa algorytmu ma za zadanie określić liczbę komórek pamięci, która będzie zajęta przez dane i wyniki pośrednie tworzone w trakcie pracy algorytmu. 
+Złożoność pamięciowa i czasowa (obliczeniowa) mogą występować w 3 odmianach:
+1.	T0(n) – optymistycznej 
+2.	TA(n) – średniej
+3.	TW(n) – pesymistycznej
+Przykład: 
+Dopóki w koszyku są śliwki, wyjmij 1, obejrzyj ją, jeśli jest robaczywa, to zakończ. 
+W przeciwnym razie odłóż ją do 2 koszyka i wróć do początku.        
+1.	Przypadek optymistyczny – wyciągnięcie robaczywej śliwki za 1 razem
+TO(n) = 1
+2.	Przypadek średni – śliwka robaczywa zostanie odnaleziona mniej więcej w połowie przeszukiwanego zbioru
+TA(n) = n/2
+3.	Przypadek pesymistyczny – śliwkę robaczywa wyciągniemy jako ostatnią lub w koszu nie ma śliwek robaczywych
+TW(n) = n
+                                                                 
+Temat: przez 1 i siebie, czyli jak zbadać czy dana liczba jest liczbą pierwszą.
+Sito Eratostenesa – 1 sposób 
+Na czym polega:
+1.	Określ liczbę naturalną n z przedziału od 2 do n, czyli zakres badanych liczb.
+2.	Usuń ze zbioru wszystkie liczby większe od 2 i podzielne przez 2.
+3.	Wybierz najmniejszą z niewykreślonych liczb i usuń ze zbioru wszystkie liczby przez nią podzielne, oprócz niej samej.
+4.	Wykonuj punkt 3. do wyczerpania zasobu liczb z założonego przedziału od 2 do n.      
+  
+                                                                                                                                                   
