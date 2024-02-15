@@ -283,5 +283,6 @@ Na czym polega:
 2.	Usuń ze zbioru wszystkie liczby większe od 2 i podzielne przez 2.
 3.	Wybierz najmniejszą z niewykreślonych liczb i usuń ze zbioru wszystkie liczby przez nią podzielne, oprócz niej samej.
 4.	Wykonuj punkt 3. do wyczerpania zasobu liczb z założonego przedziału od 2 do n.      
+
   
                                                                                                                                                    
